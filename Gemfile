@@ -5,6 +5,11 @@ gem 'pg', '0.12.2'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
+  gem 'rb-fsevent', '0.9.1', :require => false
+  gem 'guard-rspec', '0.5.5'
+  gem 'terminal-notifier-guard'
+  gem 'guard-spork', '0.3.2'
+  gem 'spork', '0.9.0'
 end
 
 # Gems used only for assets and not required

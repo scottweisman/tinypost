@@ -41,5 +41,18 @@ describe "Static pages" do
     end
   end
 
+  describe "Contact" do
+
+  	it "should have content 'Contact'" do
+  		visit '/static_pages/contact'
+  		page.should have_content('Contact')
+  	end
+
+  	it "should should have the right title text" do
+  		visit '/static_pages/contact'
+  		page.should have_selector('title', text: 'TinyPost | Contact')
+  	end
+  end
+
 
 end
