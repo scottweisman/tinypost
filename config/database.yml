@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: tinypost
+  encoding: utf8
+  host: localhost
+
+test:
+    adapter: postgresql
+    database: tinypost_test
+    encoding: utf8
+    host: localhost
