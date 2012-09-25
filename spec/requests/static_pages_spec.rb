@@ -19,7 +19,7 @@ describe "Static pages" do
 
   	it "should have the content 'Help'" do
   		visit '/static_pages/help'
-  		page.should have_content('Help')
+  		page.should have_content('Help') #
   	end
 
   	 it "should have the right title text" do
